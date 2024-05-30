@@ -1,0 +1,29 @@
+{
+  "name": "shoko-bot-baileys",
+  "version": "1.0.0",
+  "description": "A lightweight whatsapp bot built with baileys",
+  "main": "app.ts",
+  "repository": "https://github.com/Cydnirn/shoko-bot-baileys",
+  "author": "Cydnirn (Seno Aji)",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon ./src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.13",
+    "@types/qrcode-terminal": "^0.12.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.2",
+    "dotenv": "^16.4.5",
+    "openai": "^4.47.2",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
